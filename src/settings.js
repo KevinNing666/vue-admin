@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: 'Vue Admin',
 
   /**
    * @type {boolean} true | false
@@ -24,6 +24,6 @@ module.exports = {
    * @type {boolean} true | false
    * @description 是否需要tagsView(多标签)
    */
-  tagsView: true,
+  tagsView: true
 
 }

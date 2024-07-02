@@ -49,27 +49,23 @@
 import { mapGetters } from 'vuex'
 import Breadcrumb from '@/components/Breadcrumb'
 import Hamburger from '@/components/Hamburger'
-//import ErrorLog from '@/components/ErrorLog'
 import Screenfull from '@/components/Screenfull'
 import SizeSelect from '@/components/SizeSelect'
 import LangSelect from '@/components/LangSelect'
-// import Search from "@/components/HeaderSearch";
 
 export default {
   components: {
     Breadcrumb,
     Hamburger,
-    //ErrorLog,
     Screenfull,
     SizeSelect,
-    LangSelect,
-    //Search
+    LangSelect
   },
   computed: {
     ...mapGetters([
       'sidebar',
       'avatar',
-      'device',
+      'device'
     ])
   },
   methods: {
